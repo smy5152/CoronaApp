@@ -1,0 +1,35 @@
+.container {
+  position: relative;
+  padding-top: 3rem !important;
+  margin-bottom: 24px;
+  display: flex;
+  justify-items: right;
+}
+
+.bg_white {
+  background-color: #ffffff;
+}
+.image {
+  display: block;
+  height: 32px;
+}
+.social {
+  align-items: flex-end;
+}
+.left {
+  justify-content: flex-start;
+}
+
+.right {
+  justify-content: flex-end;
+}
+.links {
+  order: 1;
+  align-content: flex-end;
+}
+.brand {
+  align-content: flex-start;
+}
+.copyright {
+  align-content: flex-start;
+}

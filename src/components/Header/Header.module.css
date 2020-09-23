@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+  border-bottom: 1px solid #f9f9f9;
+}
+.left {
+  justify-content: flex-start;
+}
+.right {
+  justify-content: flex-end;
+}
+.header_logo {
+  align-content: center !important;
+  vertical-align: middle;
+}
+
+.header_icon_person {
+  padding: 20px;
+  align-items: left !important;
+}
+.header_icon_forum {
+  padding: 20px;
+  align-items: right !important;
+}
+.image {
+  width: 300px;
+  height: 75px;
+}
